@@ -203,7 +203,5 @@ declare module 'convert-units' {
     measures(): measure[];
   }
 
-  function convert(value: number): Convert;
-
-  export = convert;
+  export function convert(value: number): Convert;
 }
